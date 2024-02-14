@@ -3,8 +3,8 @@ nav{
     align-items: center;
     justify-content: space-between;
     background: lightblue;
-    padding: 20px 80px;
-    box-shadow: 0 5px 15px black;
+    padding: 5px 50px;
+    box-shadow: 0 5px 15px white;
 }
 ul li{
     list-style: none;
@@ -23,5 +23,7 @@ ul li a{
 
 
 img{
-    width: 220px;
+    width: 150px;
+    border: 5px black solid;
+    border-radius: 10px;
 }
