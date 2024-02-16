@@ -13,7 +13,7 @@ function Navbar(){
                     <li><a href="index.html">Home</a></li>
                     <li><a href="index.html">NBA</a></li>
                     <li><a href="index.html">MLB</a></li>
-                    <li><a href="index.html">EPL</a></li>
+                    <li><a href="index.html">NFL</a></li>
                 </ul>
             </div>
         </nav></>
