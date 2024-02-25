@@ -1,7 +1,5 @@
 module.exports = (sequelize, DataTypes) => {
  
- 
- 
     const basketball = sequelize.define("basketball", {
 title: {
     type: DataTypes.STRING,
