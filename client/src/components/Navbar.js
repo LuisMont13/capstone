@@ -11,9 +11,9 @@ function Navbar(){
             <div>
                 <ul> 
                     <li><a href="index.html">Home</a></li>
-                    <li><a href="index.html">NBA</a></li>
-                    <li><a href="index.html">MLB</a></li>
-                    <li><a href="index.html">NFL</a></li>
+                    <li><a href="/nba">NBA</a></li>
+                    <li><a href="/mlb">MLB</a></li>
+                    <li><a href="/epl">EPL</a></li>
                 </ul>
             </div>
         </nav></>
