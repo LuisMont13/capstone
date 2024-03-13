@@ -9,6 +9,7 @@ function Navbar(){
             <a href = "index.html"><img src = {logo} alt = "logo"/> </a> 
             
             <div>
+                
                 <ul> 
                     <li><a href="index.html">Home</a></li>
                     <li><a href="/nba">NBA</a></li>
