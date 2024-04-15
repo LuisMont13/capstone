@@ -1,9 +1,9 @@
 import React from "react";
 import "./App.css";
 import Navbar from "./components/Navbar";
-import NBA from "./components/pages/nba";
-import MLB from "./components/pages/mlb";
-import EPL from "./components/pages/epl";
+import NBA from "./components/nba";
+import MLB from "./components/mlb";
+import EPL from "./components/epl";
 
 function App(){
   let component
