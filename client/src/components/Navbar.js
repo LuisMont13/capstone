@@ -1,4 +1,4 @@
-import "./Navbar.css";
+import NavbarCSS from "./Navbar.module.css";
 
 var logo = require('../assets/logo.png');
 
@@ -6,7 +6,7 @@ function Navbar(){
     return(
         <>
         <nav>
-            <a href = "index.html"><img src = {logo} alt = "logo"/> </a> 
+            <a href = "index.html"><img className={NavbarCSS.img} src = {logo} alt = "logo"/> </a> 
             
             <div>
                 

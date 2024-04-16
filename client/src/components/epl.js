@@ -1,11 +1,11 @@
 import React from "react";
-import './epl.css';
+import styles from './epl.css';
 var chelseaLose = require('../assets/chelseaNoCheck.png');
 var arsenalWin = require('../assets/arsenalGreenCheck.png');
 
 const EPL = () => {
     return(
-            <><div className="losingTeam">
+            <><div className= {styles.winner}>
                 <div>
                     <img src={chelseaLose} alt="Chelsea Lose"/>
                 </div>

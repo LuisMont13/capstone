@@ -2,9 +2,9 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background: lightblue;
+    background: blue;
     padding: 5px 50px;
-    box-shadow: 0 5px 15px white;
+    box-shadow: 0 5px 15px navy;
 }
 ul li{
     list-style: none;
