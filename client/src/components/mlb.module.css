@@ -2,7 +2,7 @@
     object-fit:contain;
     height:auto;
     width:100%;
-    opacity: .85;
+    opacity: .65;
 }
 .img{
     position: absolute;
@@ -41,6 +41,7 @@
     position:absolute;
     left: 500px;
     top: 150px;
+    color:black;
 }
 .figcaption{
     display:block;

@@ -1,7 +1,7 @@
 import React from "react";
 import EplCSS from "./epl.module.css";
 var chelseaLose = require('../assets/chelseaNoCheck.png');
-var arsenalWin = require('../assets/arsenalGreenCheck.png');
+var arsenalWin = require('../assets/arsenal.png');
 var versus = require('../assets/versus.png')
 var background = require('../assets/soccerBackground.png');
 

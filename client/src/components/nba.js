@@ -1,7 +1,7 @@
 import React from "react";
 import NbaCSS from './nba.module.css';
 var pistonsLose = require('../assets/pistonsNoCheck.png');
-var raptorsWin = require('../assets/raptorsGreenCheck.png');
+var raptorsWin = require('../assets/raptors.png');
 var versus = require('../assets/versus.png');
 var backgroundbasketball = require('../assets/basketballBackground.png');
 const NBA = () => {

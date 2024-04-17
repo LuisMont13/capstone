@@ -27,6 +27,7 @@
 .img2{
     position: absolute;
     top: 250px;
+    height:400px;
     right: 300px;
     width: 400px;
     object-fit: contain;
