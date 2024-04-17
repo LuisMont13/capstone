@@ -20,6 +20,9 @@ function App(){
     case "/epl":
       component = <EPL />
       break
+    case "/about":
+      component = <about />
+      break
       
   }
 

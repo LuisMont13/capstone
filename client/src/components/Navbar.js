@@ -15,6 +15,7 @@ function Navbar(){
                     <li><a href="/nba">NBA</a></li>
                     <li><a href="/mlb">MLB</a></li>
                     <li><a href="/epl">EPL</a></li>
+                    <li><a href="/about">About</a></li>
                 </ul>
             </div>
         </nav></>
