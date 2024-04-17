@@ -2,23 +2,30 @@ import NavbarCSS from "./Navbar.module.css";
 
 var logo = require('../assets/logo.png');
 
+
 function Navbar(){
+
     return(
         <>
-        <nav>
-            <a href = "index.html"><img className={NavbarCSS.img} src = {logo} alt = "logo"/> </a> 
-            
-            <div>
-                
-                <ul> 
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="/nba">NBA</a></li>
-                    <li><a href="/mlb">MLB</a></li>
-                    <li><a href="/epl">EPL</a></li>
-                    <li><a href="/about">About</a></li>
-                </ul>
-            </div>
-        </nav></>
+       
+            <header>
+               <h3><a href="index.html" class="logo"><img className={NavbarCSS.img} src={logo} alt="logo"></img></a></h3>
+
+                <nav>
+                    <a href="/index.html">Home</a>
+                    <a href="/mlb">MLB</a>
+                    <a href="/nba">NBA</a>
+                    <a href="/epl">EPL</a>
+
+                </nav>
+
+
+            </header>
+    
+        
+        
+        
+        </>
     )
 }
 

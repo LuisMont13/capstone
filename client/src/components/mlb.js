@@ -4,11 +4,15 @@ import MlbCSS from "./mlb.module.css";
 var yankeesLose = require('../assets/yankeesNoCheck.png');
 var redSoxWin = require('../assets/redsoxGreenCheck.png');
 var versus = require('../assets/versus.png')
+var baseballBack = require('../assets/baseballBackground.png');
 
 const MLB = () => {
     return(
         <>
-        
+         <div className="background">
+            <img className={MlbCSS.img0} src={baseballBack} alt="Baseball Field"></img>
+        </div>
+
         <h1 className={MlbCSS.h1}>Today's MLB Matchup (4/17/2024):</h1>
        
         <div className="losingTeam">

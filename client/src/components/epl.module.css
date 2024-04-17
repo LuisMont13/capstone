@@ -1,6 +1,12 @@
+.img0{
+    object-fit: cover;
+    height:auto;
+    width:100%;
+    opacity: .85;
+}
 .img{
     position: absolute;
-    top: 320px;
+    top: 250px;
     left: 300px;
     width: 400px;
     height: 400px;
@@ -13,14 +19,14 @@
 }
 .versus{
     position: absolute;
-    top: 450px;
+    top: 380px;
     left: 850px;
     width: 200px;
     border: none;
 }
 .img2{
     position: absolute;
-    top: 320px;
+    top: 250px;
     right: 300px;
     width: 400px;
     object-fit: contain;
@@ -34,12 +40,12 @@
     font-size: 50px;
     position:absolute;
     left: 500px;
-    top: 220px;
+    top: 150px;
 }
 .figcaption{
     display:block;
     position: absolute;
-    top: 800px;
+    top: 730px;
     left: 370px;
     font-size: 30px;
     font-weight: bold;
@@ -48,8 +54,8 @@
 .figcaption1{
     display:block;
     position: absolute;
-    top: 800px;
-    right: 400px;
+    top: 730px;
+    right: 390px;
     font-size: 30px;
     font-weight: bold;
     color: black;
