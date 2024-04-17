@@ -5,11 +5,11 @@
     width: 400px;
     height: 400px;
     object-fit: contain;
-    border: 5px green solid;
+    border: 5px red solid;
     border-radius: 15px;
     margin: 30px 20px 10px 10px;
-    box-shadow: inset 0 0 1em green,
-    0 0 1em green;
+    box-shadow: inset 0 0 1em red,
+    0 0 1em red;
 }
 .versus{
     position: absolute;
@@ -24,11 +24,11 @@
     right: 300px;
     width: 400px;
     object-fit: contain;
-    border: 5px red solid;
+    border: 5px green solid;
     border-radius: 15px;
     margin: 30px 20px 10px 10px;
-    box-shadow: inset 0 0 1em red,
-    0 0 1em red;
+    box-shadow: inset 0 0 1em green,
+    0 0 1em green;
 }
 .h1{
     font-size: 50px;
@@ -40,7 +40,7 @@
     display:block;
     position: absolute;
     top: 800px;
-    left: 325px;
+    left: 370px;
     font-size: 30px;
     font-weight: bold;
     color: black;
@@ -49,7 +49,7 @@
     display:block;
     position: absolute;
     top: 800px;
-    right: 350px;
+    right: 400px;
     font-size: 30px;
     font-weight: bold;
     color: black;

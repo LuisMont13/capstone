@@ -1,21 +1,37 @@
 import React from "react";
-import './nba.css';
-
+import NbaCSS from './nba.module.css';
 var pistonsLose = require('../assets/pistonsNoCheck.png');
 var raptorsWin = require('../assets/raptorsGreenCheck.png');
+var versus = require('../assets/versus.png');
 const NBA = () => {
     return(
-        <><div className="losingTeam">
-        <div>
-            <img src={pistonsLose} alt="Yankees Lose" />
+        <>
+        
+        <h1 className={NbaCSS.h1}>Today's NBA Matchup (4/17/2024):</h1>
+       
+        <div className="losingTeam">
+            <div>
+                <a href = "https://www.basketball-reference.com/teams/DET/2024.html" target="_blank" rel="nooepner noreferrer">
+                <img className={NbaCSS.img} src={pistonsLose} alt="Pistons Lose"></img></a>
+                <figcaption className={NbaCSS.figcaption}> Detroit Pistons (14-68)<br></br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Overall score: 59</figcaption>
+            </div>
         </div>
-    </div>
-    
-    <div className="winningTeam">
-        <div>
-            <img src ={raptorsWin} alt = "Red Sox Win"/>
+        
+        <div className="versus"> 
+            <div>
+                <img className={NbaCSS.versus} src = {versus} alt = "Versus Logo"/>
+            </div>
+        
         </div>
-    </div></>
+        <div className="winningTeam">
+            <div>
+            <a href = "https://www.basketball-reference.com/teams/TOR/2024.html" target="_blank" rel="nooepner noreferrer">
+            <img className={NbaCSS.img2} src ={raptorsWin} alt = "Raptors Win"/>
+            </a>
+            <figcaption className={NbaCSS.figcaption1}> Toronto Raptors (25-57) <br></br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Overall score: 65</figcaption>
+            
+            </div>
+        </div></>
     )
 }
 export default NBA
