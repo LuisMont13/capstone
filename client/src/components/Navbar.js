@@ -16,7 +16,7 @@ function Navbar(){
                     <a href="/mlb">MLB</a>
                     <a href="/nba">NBA</a>
                     <a href="/epl">EPL</a>
-
+                    <a href="/loginIndex.php">Login</a>
                 </nav>
 
 
