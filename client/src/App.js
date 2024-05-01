@@ -8,9 +8,6 @@ import EPL from "./components/epl";
 function App(){
   let component
   switch(window.location.pathname){
-    case "/":
-      component = <index />
-      break
     case "/nba":
       component = <NBA />
       break

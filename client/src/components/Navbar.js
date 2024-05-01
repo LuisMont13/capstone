@@ -9,10 +9,9 @@ function Navbar(){
         <>
        
             <header>
-               <h3><a href="index.html" class="logo"><img className={NavbarCSS.img} src={logo} alt="logo"></img></a></h3>
+               <h3><a href="/mlb" class="logo"><img className={NavbarCSS.img} src={logo} alt="logo"></img></a></h3>
 
                 <nav>
-                    <a href="/index.html">Home</a>
                     <a href="/mlb">MLB</a>
                     <a href="/nba">NBA</a>
                     <a href="/epl">EPL</a>
