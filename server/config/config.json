@@ -19,5 +19,12 @@
     "database": "database_production",
     "host": "127.0.0.1",
     "dialect": "mysql"
+  },
+  "users":{
+    "username":"root_users",
+    "password": null,
+    "database": "database_users",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
   }
 }

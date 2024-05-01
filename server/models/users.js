@@ -5,16 +5,8 @@ module.exports = (sequelize, DataTypes) => {
             type: DataTypes.STRING,
             allowNull: false
         },
-        birthday: {
-            type: DataTypes.DATE,
-            allowNull: false
-        },
-        email: {
+        pword: {
             type: DataTypes.STRING,
-            allowNull: false
-        },
-        phoneNumber: {
-            type: DataTypes.NUM,
             allowNull: false
         }
     })
