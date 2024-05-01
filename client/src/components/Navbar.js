@@ -16,7 +16,7 @@ function Navbar(){
                     <a href="/mlb">MLB</a>
                     <a href="/nba">NBA</a>
                     <a href="/epl">EPL</a>
-                    <a href="/loginIndex.html">Login</a>
+                    <a href="/workspaces/capstone/client/src/components/loginIndex.html">Login</a>
                 </nav>
 
 
