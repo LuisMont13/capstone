@@ -1,63 +1,37 @@
-.img0{
-    object-fit: cover;
-    height:auto;
-    width:100%;
-    opacity: .85;
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    padding: 20px;
 }
-.img{
-    position: absolute;
-    top: 250px;
-    left: 300px;
-    width: 400px;
-    height: 400px;
-    object-fit: contain;
-    border: 5px red solid;
-    border-radius: 15px;
-    margin: 30px 20px 10px 10px;
-    box-shadow: inset 0 0 1em red,
-    0 0 1em red;
+h1 {
+    text-align: center;
 }
-.versus{
-    position: absolute;
-    top: 380px;
-    left: 850px;
-    width: 200px;
+form {
+    background-color: #ffffff;
+    max-width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #dddddd;
+    border-radius: 5px;
+}
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+input[type="submit"] {
+    background-color: #4caf50;
+    color: #ffffff;
+    padding: 10px 20px;
     border: none;
+    border-radius: 5px;
+    cursor: pointer;
 }
-.img2{
-    position: absolute;
-    top: 250px;
-    height:400px;
-    right: 300px;
-    width: 400px;
-    object-fit: contain;
-    border: 5px green solid;
-    border-radius: 15px;
-    margin: 30px 20px 10px 10px;
-    box-shadow: inset 0 0 1em green,
-    0 0 1em green;
-}
-.h1{
-    font-size: 50px;
-    position:absolute;
-    left: 500px;
-    top: 150px;
-}
-.figcaption{
-    display:block;
-    position: absolute;
-    top: 730px;
-    left: 370px;
-    font-size: 30px;
-    font-weight: bold;
-    color: black;
-}
-.figcaption1{
-    display:block;
-    position: absolute;
-    top: 730px;
-    right: 390px;
-    font-size: 30px;
-    font-weight: bold;
-    color: black;
+input[type="submit"]:hover {
+    background-color: #45a049;
 }
